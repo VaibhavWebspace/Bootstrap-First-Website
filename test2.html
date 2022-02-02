@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trial</title>
+	<!-- Bootstrap 4 css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- font awesome CDN (if download fontawesome file then use all.js file only)-->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<!-- second cdn from stack overflow, Fas class wont work without it -->
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	<!-- css for fontawesome -->
+	<!-- wrap font awesome link with anchor or span tag then use css -->
+
+	<!-- using google font -->
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> -->
+	<!-- BOLD FONT -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+
+	<!-- Our Main Custom CSS FILE -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- <style type="text/css">
+		a {
+			font-size: 4rem;
+			color: coral;
+		}
+	</style> -->
+</head>
+<body>
+	<!-- header section -->
+	<header id="header" class="bg-dark">
+		<div class="container">
+			<div class="row height align-items-center">
+				<div class="col">
+					<h1 class="text-danger text-uppercase font-weight-bold font-italic">
+						<strong>my first bootstrap</strong>
+						<small class="text-light">website</small>
+					</h1>
+					<p class="text-muted lead py-2 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum blanditiis fugit quae nisi eius iste earum ducimus praesentium repellendus.</p>
+					<a href="#" class="btn btn-outline-primary btn-lg m-2 text-capitalize">Press here</a>
+					<a href="#" class="btn btn-outline-success btn-lg m-2 text-capitalize">Press here</a>
+				</div>
+			</div>
+		</div>
+	</header> 
+	<!-- end of header here -->
+	
+	<!-- skill section -->
+	<section id="skills" class="py-5 bg-white">
+		<div class="container">
+			<!-- title -->
+			<div class="row">
+				<div class="col text-center">
+					<h1 class="display-4 text-uppercase text-dark mb-0">
+						<strong>skills</strong>
+					</h1>
+					<div class="title-underline bg-danger"></div>
+					<p class="mt-2 text-capitalize text-muted">Lorem ipsum dolor, sit amet.</p>
+				</div>
+			</div>
+			<!-- end of title -->
+			<div class="row">
+				<!-- single col -->
+				<div class="col-md-6 col-lg-3 text-center my-4">
+					<i class="fab fa-node-js fa-5x text-danger"></i>
+					<h3 class="text-uppercase my-3">Node.Js</h3>
+					<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Similique provident veniam nesciunt nam veritatis corporis asperiores autem ad nobis maxime.</p>
+					<a href="" class="btn btn-outline-danger btn-block text-uppercase">press here</a>
+				</div>
+				<!-- end of single col --><!-- single col -->
+				<div class="col-md-6 col-lg-3 text-center my-4">
+					<i class="fab fa-html5 fa-5x text-danger"></i>
+					<h3 class="text-uppercase my-3">html</h3>
+					<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Similique provident veniam nesciunt nam veritatis corporis asperiores autem ad nobis maxime.</p>
+					<a href="" class="btn btn-outline-danger w-75 text-uppercase">press here</a>
+				</div>
+				<!-- end of single col --><!-- single col -->
+				<div class="col-md-6 col-lg-3 text-center my-4">
+					<i class="fab fa-css3 fa-5x text-danger"></i>
+					<h3 class="text-uppercase my-3">Css3</h3>
+					<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Similique provident veniam nesciunt nam veritatis corporis asperiores autem ad nobis maxime.</p>
+					<a href="" class="btn btn-outline-danger w-50 text-uppercase">press here</a>
+				</div>
+				<!-- end of single col --><!-- single col -->
+				<div class="col-md-6 col-lg-3 text-center my-4">
+					<i class="fab fa-js fa-5x text-danger"></i>
+					<h3 class="text-uppercase my-3">Js</h3>
+					<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Similique provident veniam nesciunt nam veritatis corporis asperiores autem ad nobis maxime.</p>
+					<a href="" class="btn btn-outline-danger w-55 text-uppercase">press here</a>
+				</div>
+				<!-- end of single col -->
+			</div>
+		</div>
+	</section>
+	<!-- end of skill section -->
+	<section id="about" class="bg-info">
+		<div class="container-fluid">
+			<div class="row">
+				<!-- image col -->
+				<div class="col-md-6 about-picture height-80"></div>
+
+				<!-- about col -->
+				<div class="col-md-6 about-text height-80 px-5 align-items-center justify-content-center">
+					<!-- title -->
+					<div class="row">
+						<div class="col text-center">
+							<h1 class="display-4 text-uppercase text-dark mb-0">
+								<strong>about</strong>
+							</h1>
+							<div class="title-underline bg-warning"></div>
+							<p class="mt-2 text-capitalize text-muted">Lorem ipsum dolor, sit amet.</p>
+						</div>
+					</div>
+					<!-- end of title -->
+					<div class="checkbox-item d-flex">
+						<!-- use of d-flex 
+
+							it put checkmark and paragrapgh in sameline otherwise tey will be in separate line
+						-->
+						<i class="fas fa-check fa-2x p-1 bg-warning mr-3 align-self-center"></i>
+						
+							<p class="text-light lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptas lor</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Jquery  -->
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>	
+	<!-- bootstrap js -->
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
